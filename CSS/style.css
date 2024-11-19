@@ -1,95 +1,89 @@
-
 body {
-    margin: 0;
-    padding: 0;
-    font-family: Arial, sans-serif;
-    background-image: url(/assects/images/background\ image\ 01.jpg);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    color: white;
-    overflow: hidden;
-  }
-  
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-image: url(/assects/images/background\ image\ 01.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: white;
+  overflow: hidden;
+}
 
-  #game-container {
-    position: relative;
-    width: 400px;
-    height: 650px;
-    margin: 20px auto;
-    background-color: #3c3c3c;
- 
-    border-radius: 20px;
-    overflow: hidden;
-  }
+#game-container {
+  position: relative;
+  width: 400px;
+  height: 650px;
+  margin: 20px auto;
+  background-color: #3c3c3c;
 
-  #game-area {
-    position: relative;
-    width: 100%;
-    height: 100%;
-  }
-  
+  border-radius: 20px;
+  overflow: hidden;
+}
 
-  #player-car {
-    position: absolute;
-    bottom: 20px;
-    left: 175px;
-    width: 50px;
-    height: 80px;
-    background-image: url(/assects/images/blue\ car\ 01.png.jpg);
-    background-size: contain;
-    background-position: center;
-    background-repeat: no-repeat;
-    border-radius: 20px;
-  }
-  
+#game-area {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
 
-  .obstacle {
-    position: absolute;
-    width: 50px;
-    height: 80px;
-    background-image: url(/assects/images/yellow\ car\ 01.png.jpg);
-    background-size: contain;
-    background-position: center;
-    background-repeat: no-repeat;
-    border-radius: 20px;
-  }
+#player-car {
+  position: absolute;
+  bottom: 20px;
+  left: 175px;
+  width: 50px;
+  height: 80px;
+  background-image: url(/assects/images/blue\ car\ 01.png.jpg);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 20px;
+}
 
-  #score-board {
-    position: absolute;
-    top: 10px;
-    left: 10px;
-    text-align: center;
-    padding: 10px;
-  }
-  
+.obstacle {
+  position: absolute;
+  width: 50px;
+  height: 80px;
+  background-image: url(/assects/images/yellow\ car\ 01.png.jpg);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 20px;
+}
 
-  #game-menu {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    text-align: center;
-  }
-  
-  #game-menu button {
-    display: inline-block;
-    padding: 10px 20px;
-    font-size: 18px;
-    color: #fff;
-    background-color: #007bff;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    margin: 10px;
-    transition: background-color 0.3s ease;
-  }
-  
-  #game-menu button:hover {
-    background-color: #0056b3;
-  }
-  
+#score-board {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  text-align: center;
+  padding: 10px;
+}
 
-  .hidden {
-    display: none;
-  }
+#game-menu {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+#game-menu button {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 18px;
+  color: #fff;
+  background-color: #007bff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 10px;
+  transition: background-color 0.3s ease;
+}
+
+#game-menu button:hover {
+  background-color: #0056b3;
+}
+
+.hidden {
+  display: none;
+}
