@@ -3,7 +3,7 @@ body {
     margin: 0;
     padding: 0;
     font-family: Arial, sans-serif;
-    background-image: url(/assects/images/background\ image.jpg);
+    background-image: url(/assects/images/background\ image\ 01.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -36,11 +36,11 @@ body {
     left: 175px;
     width: 50px;
     height: 80px;
-    background-image: url(/assects/images/blue.png);
+    background-image: url(/assects/images/blue\ car\ 01.png.jpg);
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
-    border-radius: 10px;
+    border-radius: 20px;
   }
   
 
@@ -48,11 +48,11 @@ body {
     position: absolute;
     width: 50px;
     height: 80px;
-    background-image: url(/assects/images/yellow.png);
+    background-image: url(/assects/images/yellow\ car\ 01.png.jpg);
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
-    border-radius: 10px;
+    border-radius: 20px;
   }
 
   #score-board {
